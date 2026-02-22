@@ -1,92 +1,124 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Nithya Sri A",
+  title: "Computer Science & Engineering Student",
+  description:
+    "Portfolio of Nithya Sri A – CSE student with strong foundations in Java, C, Web Development, and AI-based projects.",
+  accentColor: "#F54927",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "nithyasri0701@gmail.com",
+    linkedin: "https://www.linkedin.com/in/nithya-sri-a-2730342a4",
+    github: "https://github.com/Nithya-0705"
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+    "I am a Computer Science and Engineering student with a strong foundation in Java, C, and Web Development. I am passionate about building practical software solutions, exploring AI-driven systems, and continuously learning new technologies. I am seeking an entry-level opportunity where I can apply my technical skills, improve problem-solving abilities, and contribute to real-world projects.",
+
+  skills: [
+    "Java",
+    "C",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "SQL",
+    "Machine Learning",
+    "Chrome Extensions"
   ],
+
+projects: [
+  {
+    name: "Decision Fatigue Guard",
+    description:
+      "A privacy-first Chrome extension for Gmail that detects decision overload using a Decision Load Score (DLS) and applies real-time UI interventions with on-device machine learning.",
+    link: "https://github.com/Nithya-0705/decision_fatigue",
+    skills: [
+      "TypeScript",
+      "Chrome Extension (MV3)",
+      "Machine Learning",
+      "TensorFlow.js",
+      "Event Tracking"
+    ]
+  },
+  {
+    name: "Event Booking System",
+    description:
+      "A web-based event booking application built with PHP, allowing users to book events and manage bookings with a user-friendly interface.",
+    link: "https://github.com/Nithya-0705/event_booking",
+    skills: ["PHP", "HTML", "CSS", "MySQL", "Web Development"]
+  },
+  {
+    name: "Ride Share App",
+    description:
+      "A JavaScript-based ride sharing application that simulates ride requests and matches riders with drivers in real time.",
+    link: "https://github.com/Nithya-0705/ride_share",
+    skills: ["JavaScript", "Frontend", "UI Logic"]
+  },
+  {
+    name: "Contract Intelligence",
+    description:
+      "A contract intelligence project using TypeScript aimed at analyzing and extracting relevant information from contractual text.",
+    link: "https://github.com/Nithya-0705/Contract-intelligence",
+    skills: ["TypeScript", "Text Processing"]
+  },
+  {
+    name: "Exam Preparation",
+    description:
+      "A Python-based project designed for exam preparation tools or utilities to assist students in organizing and studying exam material.",
+    link: "https://github.com/Nithya-0705/exam-preparation",
+    skills: ["Python"]
+  }
+],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "DLK Technologies",
+      title: "Web Development Intern",
+      dateRange: "10 Days",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+        "Gained hands-on experience in web development",
+        "Assisted in designing and updating web pages"
+      ]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "InternPe",
+      title: "Java Programming Intern",
+      dateRange: "30 Days",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+        "Developed and tested simple Java programs",
+        "Improved understanding of core Java concepts"
+      ]
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Virtual Tech Services",
+      title: "Full Stack Web Development Intern",
+      dateRange: "30 Days",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+        "Worked on full stack web development concepts",
+        "Assisted in developing and understanding application modules"
+      ]
+    }
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "Panimalar Engineering College",
+      degree: "Bachelor of Engineering – Computer Science",
+      dateRange: "2023 – 2027",
+      achievements: ["CGPA: 9.25 / 10"]
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "T.S.T. Rajah Girls Higher Secondary School",
+      degree: "Class XII – State Board",
+      dateRange: "2021 – 2022",
+      achievements: ["Percentage: 93%"]
     },
-  ],
+    {
+      school: "B.C.S. Jain Matric Higher Secondary School",
+      degree: "Class X – State Board",
+      dateRange: "2019 – 2020",
+      achievements: ["Percentage: 86.6%"]
+    }
+  ]
 };
