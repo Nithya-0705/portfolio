@@ -9,7 +9,7 @@ export const siteConfig = {
     email: "nithyasri0701@gmail.com",
     linkedin: "https://www.linkedin.com/in/nithya-sri-a-2730342a4",
     github: "https://github.com/Nithya-0705",
-    resume: "/resume.pdf"
+    resume: "resume.pdf"
   },
 
   aboutMe:
