@@ -8,7 +8,8 @@ export const siteConfig = {
   social: {
     email: "nithyasri0701@gmail.com",
     linkedin: "https://www.linkedin.com/in/nithya-sri-a-2730342a4",
-    github: "https://github.com/Nithya-0705"
+    github: "https://github.com/Nithya-0705",
+    resume: "/resume.pdf"
   },
 
   aboutMe:
@@ -18,13 +19,9 @@ export const siteConfig = {
     "Java",
     "C",
     "Python",
-    "JavaScript",
     "HTML",
     "CSS",
-    "React",
     "SQL",
-    "Machine Learning",
-    "Chrome Extensions"
   ],
 
 projects: [
@@ -34,7 +31,6 @@ projects: [
       "A privacy-first Chrome extension for Gmail that detects decision overload using a Decision Load Score (DLS) and applies real-time UI interventions with on-device machine learning.",
     link: "https://github.com/Nithya-0705/decision_fatigue",
     skills: [
-      "TypeScript",
       "Chrome Extension (MV3)",
       "Machine Learning",
       "TensorFlow.js",
@@ -46,7 +42,7 @@ projects: [
     description:
       "A web-based event booking application built with PHP, allowing users to book events and manage bookings with a user-friendly interface.",
     link: "https://github.com/Nithya-0705/event_booking",
-    skills: ["PHP", "HTML", "CSS", "MySQL", "Web Development"]
+    skills: ["HTML", "CSS", "MySQL", "Web Development"]
   },
   {
     name: "Ride Share App",
@@ -58,9 +54,9 @@ projects: [
   {
     name: "Contract Intelligence",
     description:
-      "A contract intelligence project using TypeScript aimed at analyzing and extracting relevant information from contractual text.",
+      "A contract intelligence project using Javascript aimed at analyzing and extracting relevant information from contractual text.",
     link: "https://github.com/Nithya-0705/Contract-intelligence",
-    skills: ["TypeScript", "Text Processing"]
+    skills: ["JavaScript", "Text Processing"]
   },
   {
     name: "Exam Preparation",
@@ -75,7 +71,7 @@ projects: [
     {
       company: "DLK Technologies",
       title: "Web Development Intern",
-      dateRange: "10 Days",
+      // dateRange: "10 Days",
       bullets: [
         "Gained hands-on experience in web development",
         "Assisted in designing and updating web pages"
@@ -84,7 +80,7 @@ projects: [
     {
       company: "InternPe",
       title: "Java Programming Intern",
-      dateRange: "30 Days",
+      // dateRange: "30 Days",
       bullets: [
         "Developed and tested simple Java programs",
         "Improved understanding of core Java concepts"
@@ -93,7 +89,7 @@ projects: [
     {
       company: "Virtual Tech Services",
       title: "Full Stack Web Development Intern",
-      dateRange: "30 Days",
+      // dateRange: "30 Days",
       bullets: [
         "Worked on full stack web development concepts",
         "Assisted in developing and understanding application modules"
@@ -119,6 +115,39 @@ projects: [
       degree: "Class X – State Board",
       dateRange: "2019 – 2020",
       achievements: ["Percentage: 86.6%"]
+    }
+  ],
+
+  certifications: [
+    {
+      title: "UiPath Automation Developer Associate",
+      issuer: "UiPath",
+      dateRange: "2026"
+    },
+    {
+      title: "Introduction to Machine Learning",
+      issuer: "NPTEL (SWAYAM)",
+      dateRange: "2025"
+    },
+    {
+      title: "TechA Python Developer Certification",
+      issuer: "Infosys Springboard",
+      dateRange: "2025"
+    },
+    {
+      title: "Generative AI Certified Professional",
+      issuer: "Oracle OCI",
+      dateRange: "2024"
+    },
+    {
+      title: "Programming in Java",
+      issuer: "NPTEL (SWAYAM)",
+      dateRange: "2024"
+    },
+    {
+      title: "Cybersecurity Analysis & Design",
+      issuer: "NASSCOM",
+      dateRange: "2024"
     }
   ]
 };
